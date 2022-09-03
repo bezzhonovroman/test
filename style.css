@@ -6,16 +6,6 @@ body, html {
   align-items: center; 
 }
 
-@font-face {
-  font-family: 'Mulish';
-  src: url(http://fonts.cdnfonts.com/css/mulish);
-}
-
-@font-face {
-  font-family: 'Montserrat';
-  src: url(http://fonts.cdnfonts.com/css/montserrat);
-}
-
 .container {
   margin: 56px 163px 0 190px;
 }
