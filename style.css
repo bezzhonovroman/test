@@ -1,319 +1,294 @@
-html, body {
+body, html {
   margin: 0;
   padding: 0;
-  background-color: #ffffff;
-  max-width: 1600px;
-  max-height: 5870px;
+  display: flex;
+  flex-direction: column;
+  align-items: center; 
 }
 
-.image-header img {
-  position: absolute;
-  width: 693px;
-  height: 598px;
-  top: 177px;
-  left: 744px;
+.container {
+  margin: 56px 163px 0 190px;
 }
 
-.header-text {
-  position: absolute;
-  width: 469px;
-  height: 338px;
-  left: 190px;
-  top: 283px;
+.container-leading {
+  margin: 220px 192px 0 135px;
 }
 
-.header-text h1 {
-  width: 469px;
-  height: 112px;
-  font-family: "Montserrat";
-  font-style: normal;
-  font-weight: 700;
-  font-size: 48px;
-  line-height: 56px;
-  color: #000000;
-  mix-blend-mode: normal;
+.container-download {
+  margin: 229px 164px 0 280px;
 }
 
-.header-text p {
-  width: 445px;
-  height: 96px;
-  font-family: "Mulish";
-  font-style: normal;
-  font-weight: 300;
-  font-size: 21px;
-  line-height: 32px;
-  color: #7D7987;
-  mix-blend-mode: normal;
+.container-review {
+  margin: 266px 238px 0 242px;
 }
 
-.consult-btn {
+.button {
+  display: inline-block;
   width: 200px;
   height: 56px;
+  background: #458FF6;
   border-radius: 55px;
-  background: #458ff6;
-  margin-top: 48px;
+  text-decoration: none;
 }
 
-.consult-btn a {
-  font-family: "Mulish";
+.button-color-lm {
+  border: 1px solid #458FF6;
+  background: #FFFFFF;
+}
+
+.consult-button span {
+  font-family: 'Mulish';
   font-style: normal;
   font-weight: 700;
   font-size: 18px;
-  line-height: 60px;
-  text-decoration: none;
-  white-space: nowrap;
-  color: #ffffff;
-  margin-left: 40px;
-  margin-right: 40px;
+  line-height: 56px;
+  color: #FFFFFF;
+  margin: 0 40px 0px 40px;
 }
 
-.top-nav ul {
-  position: absolute;
-  top: 70px;
-  left: 863px;
-  width: 551px;
-  padding: 0;
-  margin: 0;
-  white-space: nowrap;
-}
-
-.top-nav li {
-  display: inline-block;
-  margin-right: 40px;
-}
-
-.top-nav li:last-child {
-  margin-right: 0;
-}
-
-.top-nav a {
-  text-decoration: none;
+.white-button span {
   font-family: 'Mulish';
   font-style: normal;
-  font-weight: 400;
+  font-weight: 700;
   font-size: 18px;
-  line-height: 23px;
-  color: #1F1534;
-  opacity: 0.5;
+  line-height: 56px;
+  color: #458FF6;
+  margin: 0 51px 0 51px;
 }
 
-.top-nav a:hover {
-  opacity: 1;
+.download-button span {
+  font-family: 'Mulish';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 56px;
+  color: #458FF6;
+  margin: 0 68px 0 43px;
 }
 
-.logo-image a {
-  text-decoration: none;
+.logo-side {
+  display: flex;
 }
 
-.round-image {
+.t-logo {
   width: 41px;
   height: 41px;
   border-radius: 50%;
   background-color: #458FF6;
-  position: absolute;
-  top: 56px;
-  left: 191px;
 }
 
-.logo-image p{
+.t-logo span {
+  display: block;
   font-family: 'Mulish';
   font-style: normal;
   font-weight: 700;
   font-size: 26px;
   line-height: 33px;
   color: #FFFFFF;
-  margin: 0;
-  padding: 0;
-  position: absolute;
-  top: 61px;
-  left: 204px;
+  padding: 5px 0 0 13px;;
 }
 
-.text-logo {
+.logo-title {
+  display: block;
+  padding: 6px 0 0 12px;;
   font-family: 'Mulish';
   font-style: normal;
   font-weight: 700;
   font-size: 24px;
   line-height: 30px;
   color: #233348;
-  position: absolute;
-  top: 62px;
-  left: 244px;
 }
 
-.services-title h1 {
-  position: absolute;
-  top: 967px;
-  left: 695px;
+.top-header {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.nav-bar {
   margin: 0;
+  padding: 0;
+  padding: 14px 29px 0 0;
+}
+
+.nav-bar li {
+  display: inline-block;
+  margin-right: 40px;
+  padding: 0;
+}
+
+.nav-bar li:last-child {
+  margin-right: 0;
+}
+
+.nav-bar a {
+  font-family: 'Mulish';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 23px;
+  opacity: 0.5;
+  color: #1f1534;
+  text-decoration: none;
+}
+
+.nav-bar a:hover {
+  opacity: 1;
+  font-weight: 700;
+}
+
+.bottom-header {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 80px;
+}
+
+.bottom-header img {
+  width: 693px;
+  height: 598px;
+}
+
+.title-header {
+  padding-right: 85px;
+}
+
+.title-header h1 {
+  font-family: 'Montserrat';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 48px;
+  line-height: 56px;
+  color: #000000;
+  margin: 0;
+  padding: 106px 0 25px 0;
+}
+
+.title-header p {
+  font-family: 'Mulish';
+  font-style: normal;
+  font-weight: 300;
+  font-size: 21px;
+  line-height: 32px;
+  color: #7D7987;
+  padding: 0;
+  padding-bottom: 48px;
+  margin: 0;
+}
+
+.part-services {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  /*width: 1120px;*/
+  padding: 136px 77px 0 50px;
+}
+
+.services-title h2 {
+  text-align: center;
   font-family: 'Mulish';
   font-style: normal;
   font-weight: 700;
   font-size: 36px;
   line-height: 56px;
   color: #000000;
-  white-space: nowrap;
+  margin: 0;
 }
 
+
 .services-title p {
+  padding: 61px 85px 0 83px;
+  margin: 0;
+
   font-family: 'Mulish';
   font-style: normal;
   font-weight: 300;
   font-size: 18px;
   line-height: 30px;
   text-align: center;
+
   color: #7D7987;
-  position: absolute;
-  left: 323px;
-  top: 1084px;
-  width: 952px;
-  height: 60px;
-  margin: 0;
 }
 
-.rectangle {
-  width: 52px;
-  border: 1px solid black;
-  border-radius: 5px;
-}
-
-.position-rect {
-  position: absolute;
-  top: 1049px;
-  left: 772px;
-}
 .services-cards {
-  display: flex;
-  position: absolute;
-  top: 1224px;
-  left: 240px;
-  flex-wrap: wrap;
   width: 1120px;
-  height: 745px;
+  margin-top: 80px;
+  margin-bottom: 72px;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  align-items: center;
 }
 
-/*
-.card img {
-  position: relative;
-  top: 60px;
-  left: 37px;
-  display: block;
+.card {
+  display: flex;
+  flex-direction: column;
+  width: 350px;
+  height: 354px;;
+  background: #FFFFFF;
+  box-shadow: 10px 40px 50px rgba(229, 233, 246, 0.4);
+  border-radius: 20px;
+
+  margin-right: 34px;
+  margin-bottom: 37px;
 }
-*/
-.card h2 {
+
+.card:nth-child(3) {
+  margin-right: 0;
+}
+.card:last-child {
+  margin-right: 0;
+}
+
+.card img {
+  padding-top: 40px;
+  padding-left: 30px;
+  width: 100px;
+  height: 100px;
+}
+
+.card h3 {
   margin: 0;
-  padding: 0;
+  padding-left: 38px;
+  padding-top: 20px;
+
   font-family: 'Mulish';
   font-style: normal;
   font-weight: 700;
   font-size: 24px;
   line-height: 56px;
   color: #000000;
-  position: relative;
-  top: 166px;
-  left: 39px;
 }
 
 .card p {
   margin: 0;
-  padding: 0;
-  width: 266px;
+  padding-left: 38px;
+
   font-family: 'Mulish';
   font-style: normal;
   font-weight: 300;
   font-size: 16px;
   line-height: 28px;
   color: #7D7987;
-  position: relative;
-  top: 166px;
-  left: 39px;
 }
 
-.card {
-  width: 350px;
-  height: 354px;
-  background: #ffffff;
-  box-shadow: 10px 40px 50px rgba(229, 233, 246, 0.4);
-  border-radius: 20px;
+.margin-bottom-null {
+  margin-bottom: 0;
 }
 
-.card-1 {
-  margin-right: 34px;
-  margin-bottom: 37px;
-}
-
-.card-2 {
-  margin-right: 36px;
-  margin-bottom: 37px;
-}
-
-.card-3 {
-  margin-bottom: 37px;
-}
-
-.card-4 {
-  margin-right: 34px;
-}
-
-.card-5 {
-  margin-right: 36px;
-}
-
-.lm-btn-pos {
-  position: absolute;
-  top: 2041px;
-  left: 700px;
-}
-
-.learn-more-btn {
-  box-sizing: border-box;
-  position: absolute;
-  border: 1.4px solid #458FF6;
-  border-radius: 55px;
-  width: 200px;
-}
-
-.learn-more-btn a {
-  text-decoration: none;
-}
-
-.learn-more-btn p {
-  display: inline-block;
-  margin: 0;
-  margin-left: 51px;
-  margin-right: 51px;
-  white-space: nowrap;
-
-  font-family: 'Mulish';
-  font-style: normal;
-  font-weight: 700;
-  font-size: 18px;
-  line-height: 60px;
-  color: #458FF6;
-}
-
-.leading-page {
+.part-leading {
   display: flex;
-  flex-direction: row;
-  position: absolute;
-  top: 2318px;
-  left: 135px;
+  justify-content: space-between;
 }
 
-.leading-image {
+.part-leading img {
   width: 650px;
   height: 477px;
-  margin-right: 137px;
+  padding-right: 142px; 
 }
 
 .leading-title {
-  width: 486px;
-  height: 388px;
-}
-
-.leading-title h2, p {
-  margin: 0;
-  padding: 0;
+  display: flex;
+  flex-direction: column;
 }
 
 .leading-title h2 {
@@ -323,73 +298,122 @@ html, body {
   font-size: 36px;
   line-height: 56px;
   color: #000000;
-  margin-top: 57px;
-  margin-bottom: 26px;
+  margin: 0;
+  padding-top: 57px;
+  padding-bottom: 59px;
 }
 
-.leading-title > p {
-  width: 450px;
-  height: 120px;
+.leading-title p {
   font-family: 'Mulish';
   font-style: normal;
   font-weight: 300;
   font-size: 18px;
   line-height: 30px;
   color: #7D7987;
-  margin-bottom: 37px;
+  margin: 0;
+  padding-bottom: 37px;
 }
 
-.rect-margin {
-  margin-bottom: 31px;
-}
-
-.download-page {
+.part-download {
   display: flex;
-  flex-direction: row;
-  position: absolute;
-  top: 3024px;
-  left: 280px;
-  width: 1156px;
-  height: 434px;
+  justify-content: space-between;
 }
 
-.download-image {
+.part-download img {
   width: 665px;
   height: 434px;
-  margin-left: 71px;
+  padding-left: 110px;
 }
 
 .download-title {
-  width: 420px;
-  height: 375px;
-}
-
-.download-title h2, p {
-  margin: 0;
-  padding: 0;
+  display: flex;
+  flex-direction: column;
 }
 
 .download-title h2 {
-  width: 254px;
-  height: 96px;
+  font-family: 'Mulish';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 56px;
+  color: #000000;
+  margin: 0;
+  padding-top: 36px;
+  padding-bottom: 63px;
+}
+
+.download-title p {
+  font-family: 'Mulish';
+  font-style: normal;
+  font-weight: 300;
+  font-size: 18px;
+  line-height: 30px;
+  color: #7D7987;
+  margin: 0;
+  padding-bottom: 40px;
+}
+
+.part-review {
+  width: 1120px;
+  height: 425px;
+
+  background: linear-gradient(208.18deg, #67C3F3 9.05%, #5A98F2 76.74%);
+  border-radius: 24px;
+}
+
+.review-card {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content:space-around;
+}
+
+.review-card h2 {
   font-family: 'Mulish';
   font-style: normal;
   font-weight: 700;
   font-size: 36px;
   line-height: 48px;
-  color: #000000;
-  margin-top: 36px;
-  margin-bottom: 30px;
+  color: #FFFFFF;
+  margin: 0;
+  padding: 64px 295px 90px 301px;
 }
 
-.download-title > p {
-  width: 420px;
-  height: 120px;
+.review-card > p {
   font-family: 'Mulish';
   font-style: normal;
-  font-weight: 300;
+  font-weight: 400;
   font-size: 18px;
-  line-height: 30px;
-  color: #7D7987;
-  margin-bottom: 41px;
+  line-height: 48px;
+  color: rgba(255, 255, 255, 0.85);
+  margin: 0;
+  padding-top: 50px;
+  padding-bottom: 110px;
 }
+
+.review-card > p::first-line {
+  font-family: 'Mulish';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 22px;
+  line-height: 10px;
+  color: #FFFFFF;
+}
+
+.review-card img {
+  border: 3px solid #FFFFFF;
+  border-radius: 50%;
+  margin: 0 29px 79px 118px;
+}
+
+.review-text p {
+  font-family: 'Mulish';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 19px;
+  line-height: 30px;
+  color: rgba(255, 255, 255, 0.9);
+  margin: 0;
+  padding: 10px 118px 89px 110px;
+}
+
