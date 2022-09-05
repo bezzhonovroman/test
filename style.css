@@ -8,22 +8,22 @@ body, html {
 
 @font-face {
   font-family: "Mulish";
-  src: url("..fonts/Mulish-Italic.ttf") format("ttf");
+  src: url("fonts/Montserrat-Italic.woff") format ("woff");
 }
 
 @font-face {
   font-family: "Mulish";
-  src: url("..fonts/Mulish-wght.ttf") format("ttf");
+  src: url("fonts/Mulish-wght.woff") format("woff");
 }
 
 @font-face {
   font-family: "Montserrat";
-  src: url("..fonts/Montserrat-Italic.ttf") format("ttf");
+  src: url("fonts/Montserrat-Italic.woff") format("woff");
 }
 
 @font-face {
   font-family: "Montserrat";
-  src: url("..fonts/Montserrat-wght.ttf") format("ttf");
+  src: url("fonts/Montserrat-wght.woff") format("woff");
 }
 
 .container {
