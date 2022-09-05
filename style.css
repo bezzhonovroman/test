@@ -22,6 +22,14 @@ body, html {
   margin: 266px 238px 0 242px;
 }
 
+.container-article {
+  margin: 223px 238px 0 242px; 
+}
+
+.container-footer {
+  margin: 110px 235px 0 190px;
+}
+
 .button {
   display: inline-block;
   width: 200px;
@@ -64,6 +72,16 @@ body, html {
   line-height: 56px;
   color: #458FF6;
   margin: 0 68px 0 43px;
+}
+
+.view-all-button span {
+  font-family: 'Mulish';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 56px;
+  color: #458FF6;
+  margin: 0 65px 0 66px;
 }
 
 .logo-side {
@@ -183,6 +201,11 @@ body, html {
   padding: 136px 77px 0 50px;
 }
 
+.services-title {
+  display: flex;
+  flex-direction: column;
+}
+
 .services-title h2 {
   text-align: center;
   font-family: 'Mulish';
@@ -194,11 +217,20 @@ body, html {
   margin: 0;
 }
 
+.services-title h2::after {
+  content: "";
+  display: block;
+  margin: 0;
+  margin-left: 520px;
+  margin-top: 26px;
+  width: 56px;
+  border-bottom: 2px solid #000000;
+}
+
 
 .services-title p {
-  padding: 61px 85px 0 83px;
+  padding: 33px 85px 0 83px;
   margin: 0;
-
   font-family: 'Mulish';
   font-style: normal;
   font-weight: 300;
@@ -300,7 +332,16 @@ body, html {
   color: #000000;
   margin: 0;
   padding-top: 57px;
-  padding-bottom: 59px;
+}
+
+.leading-title h2::after {
+  content: "";
+  display: block;
+  margin: 0;
+  margin-top: 26px;
+  margin-bottom: 31px;
+  width: 56px;
+  border-bottom: 2px solid #000000;
 }
 
 .leading-title p {
@@ -339,7 +380,16 @@ body, html {
   color: #000000;
   margin: 0;
   padding-top: 36px;
-  padding-bottom: 63px;
+}
+
+.download-title h2::after {
+  content: "";
+  display: block;
+  margin: 0;
+  margin-top: 26px;
+  margin-bottom: 31px;
+  width: 56px;
+  border-bottom: 2px solid #000000;
 }
 
 .download-title p {
@@ -376,7 +426,17 @@ body, html {
   line-height: 48px;
   color: #FFFFFF;
   margin: 0;
-  padding: 64px 295px 90px 301px;
+  padding: 64px 295px 66px 301px;
+}
+
+.review-card h2::after {
+  content: "";
+  display: block;
+  margin: 0;
+  margin-top: 26px;
+  margin-left: 230px;
+  width: 56px;
+  border-bottom: 2px solid #FFFFFF;
 }
 
 .review-card > p {
@@ -417,3 +477,167 @@ body, html {
   padding: 10px 118px 89px 110px;
 }
 
+.part-article {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  width: 1120px;
+}
+
+.part-article h2 {
+  margin: 0;
+  padding: 0 329px 100px 329px;
+  font-family: 'Mulish';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 56px;
+  color: #000000;
+}
+
+.article-cards-space {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+
+.article-card {
+  width: 350px;
+  height: 512px;
+  margin-right: 34px;
+  margin-bottom: 69px;
+  background: #FFFFFF;
+  box-shadow: 10px 40px 50px rgba(229, 233, 246, 0.4);
+  border-radius: 20px;
+}
+
+.article-card:nth-child(3) {
+  margin-right: 0px;
+}
+
+.article-card h3,
+ .article-card p {
+  margin: 0;
+  padding-top: 21px;
+  padding-left: 33px;
+  font-family: 'Mulish';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 21px;
+  line-height: 32px;
+  color: #000000;
+}
+
+.article-card p {
+  padding-top: 12px;
+  font-weight: 300;
+  font-size: 16px;
+  line-height: 28px;
+  color: #7D7987
+}
+
+.article-card img {
+  border-radius: 20px 20px 0 0;
+}
+
+.article-card a {
+  display: inline-block;
+  margin: 0;
+  padding-top: 25px;
+  padding-left: 33px;
+  font-family: 'Mulish';
+  font-style: normal;
+  font-weight: 600;
+  font-size: 17px;
+  line-height: 28px;
+  color: #4089ED;
+  text-decoration: none;
+}
+
+footer {
+  margin-top: 202px;
+  width: 1600px;
+  height: 432px; 
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  background: linear-gradient(183.41deg, #67C3F3 -8.57%, #5A98F2 82.96%);
+}
+
+.footer-title {
+  margin: 0;
+  padding: 118px 0 113px 190px;
+}
+
+.footer-title p:nth-child(2) {
+  padding-top: 17px;
+  padding-bottom: 31px;
+}
+
+.footer-font {
+  margin: 0;
+  font-family: 'Mulish';
+  font-style: normal;
+  font-weight: 300;
+  font-size: 18px;
+  line-height: 28px;
+  color: #FFFFFF;
+}
+
+.t-logo-footer {
+  width: 41px;
+  height: 41px;
+  border-radius: 50%;
+  background-color: #FFFFFF;
+}
+
+.t-logo-footer span {
+  display: block;
+  font-family: 'Mulish';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 26px;
+  line-height: 33px;
+  color: #458FF6;
+  padding: 5px 0 0 13px;;
+}
+
+.logo-title-footer {
+  display: block;
+  padding: 6px 0 0 12px;;
+  font-family: 'Mulish';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 30px;
+  color: #FFFFFF;
+}
+
+.footer-nav-bar a {
+  text-decoration: none;
+  color: #FFFFFF
+}
+
+.footer-nav-bar ul {
+  margin: 0;
+  padding-top: 109px;
+  padding-left: 160px;
+}
+
+.footer-nav-bar li {
+  font-family: 'Mulish';
+  font-style: normal;
+  font-weight: 300;
+  font-size: 18px;
+  line-height: 38px;
+  list-style: none;
+}
+
+.footer-nav-bar li:first-child { 
+  font-family: 'Mulish';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 60px;
+}
