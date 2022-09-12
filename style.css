@@ -5,7 +5,7 @@ body, html {
   flex-direction: column;
   align-items: center;
 }
-/* 
+
 @font-face {
   font-family: "Mulish";
   src: url("./fonts/Montserrat-Italic.woff") format ("woff");
@@ -24,7 +24,7 @@ body, html {
 @font-face {
   font-family: "Montserrat";
   src: url("./fonts/Montserrat-wght.woff") format("woff");
-} */
+}
 
 .container {
   margin: 56px 163px 0 190px;
