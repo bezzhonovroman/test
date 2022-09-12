@@ -84,14 +84,14 @@ body, html {
   margin: 0 51px 0 51px;
 }
 
-.download-button span {
+.download-button > span {
   font-family: 'Mulish';
   font-style: normal;
   font-weight: 700;
   font-size: 18px;
   line-height: 56px;
   color: #458FF6;
-  margin: 0 68px 0 43px;
+  margin: 0 0 0 43px;
 }
 
 .view-all-button span {
@@ -570,6 +570,36 @@ body, html {
   line-height: 28px;
   color: #4089ED;
   text-decoration: none;
+}
+
+.arrow {
+  display: inline-block;
+  position: relative;
+  height: 2px;
+  width: 15px;
+  margin: 3px;
+  margin-left: 15px;
+  background-color: #458FF6;
+}
+
+.arrow:after {
+  content: "";
+  position: absolute;
+  top: -3px;
+  left: 7px;
+  display: inline-block;
+  box-sizing: border-box;
+  width: 8px;
+  height: 8px;  
+  border-width: 2px 2px 0 0;
+  border-style: solid;
+  transform: rotate(45deg);
+}
+
+.arrow-down {
+  width: 15px;
+  top: -3px;
+  transform: rotate(90deg);
 }
 
 footer {
