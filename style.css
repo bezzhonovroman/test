@@ -405,16 +405,9 @@ body, html{
 .part-review { 
   display: flex;
   flex-direction: row;
-
   font-family: 'Mulish';
   font-style: normal;
   color: #FFFFFF;
-}
-
-.review-card-space {
-  display: flex;
-  flex-direction: row;
-  flex-wrap: wrap;
 }
 
 .review-card {
@@ -481,6 +474,10 @@ body, html{
 
   width: 420px;
   padding: 51px 118px 89px 0;
+}
+
+.owl-carousel {
+  width: 1125px !important;
 }
 
 .part-article {
@@ -676,4 +673,18 @@ footer {
   font-weight: 700;
   font-size: 20px;
   line-height: 60px;
+}
+
+@media screen and (max-width: 767) {
+  h1 {
+    font-size: 5px;
+  }
+}
+
+@media (min-width:767px) and (max-width: 1023px) {
+  
+}
+
+@media (min-width: 1024) {
+  
 }
