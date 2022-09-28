@@ -1,30 +1,11 @@
-body, html {
+body, html{
   margin: 0;
   padding: 0;
+  box-sizing: border-box;
   display: flex;
   flex-direction: column;
   align-items: center;
 }
-/* 
-@font-face {
-  font-family: "Mulish";
-  src: url("./fonts/Montserrat-Italic.woff") format ("woff");
-}
-
-@font-face {
-  font-family: "Mulish";
-  src: url("./fonts/Mulish-wght.woff") format("woff");
-}
-
-@font-face {
-  font-family: "Montserrat";
-  src: url("./fonts/Montserrat-Italic.woff") format("woff");
-}
-
-@font-face {
-  font-family: "Montserrat";
-  src: url("./fonts/Montserrat-wght.woff") format("woff");
-} */
 
 .container {
   margin: 56px 163px 0 190px;
@@ -47,7 +28,7 @@ body, html {
 }
 
 .container-footer {
-  margin: 110px 235px 0 190px;
+  padding: 0 235px 0 190px;
 }
 
 .button {
@@ -421,77 +402,85 @@ body, html {
   padding-bottom: 40px;
 }
 
-.part-review {
-  width: 1120px;
-  height: 425px;
+.part-review { 
+  display: flex;
+  flex-direction: row;
 
-  background: linear-gradient(208.18deg, #67C3F3 9.05%, #5A98F2 76.74%);
-  border-radius: 24px;
+  font-family: 'Mulish';
+  font-style: normal;
+  color: #FFFFFF;
 }
 
-.review-card {
+.review-card-space {
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;
-  justify-content:space-around;
 }
 
-.review-card h2 {
-  font-family: 'Mulish';
-  font-style: normal;
+.review-card {
+  width: 1120px;
+  height: 425px;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  border-radius: 24px;
+  background: linear-gradient(208.18deg, #67C3F3 9.05%, #5A98F2 76.74%);
+}
+
+.review-image img {
+  box-sizing: border-box;
+  border: 6px solid #FFFFFF;
+  border-radius: 50%;
+  width: 141px !important; 
+  height: 141px !important;
+  margin: 40px 29px 79px 118px;
+}
+
+.review-header h2 {
+  margin: 0;
+  padding-top: 64px;
   font-weight: 700;
   font-size: 36px;
   line-height: 48px;
-  color: #FFFFFF;
-  margin: 0;
-  padding: 64px 295px 66px 301px;
+  width: 1120px;
+  box-sizing: border-box;
+  text-align: center;
 }
 
-.review-card h2::after {
+.review-header h2::after {
   content: "";
   display: block;
-  margin: 0;
-  margin: 26px auto 0 auto;
+  margin: 26px auto;
+  
   width: 56px;
   border-bottom: 2px solid #FFFFFF;
 }
 
-.review-card > p {
-  font-family: 'Mulish';
-  font-style: normal;
+.image-text {
   font-weight: 400;
   font-size: 18px;
-  line-height: 48px;
+  line-height: 10px;
   color: rgba(255, 255, 255, 0.85);
-  margin: 0;
-  padding-top: 50px;
-  padding-bottom: 110px;
+
+  padding: 71px 110px 110px 0;
 }
 
-.review-card > p::first-line {
-  font-family: 'Mulish';
-  font-style: normal;
+.image-text::first-line {
   font-weight: 700;
   font-size: 22px;
-  line-height: 10px;
+  line-height: 48px;
+
   color: #FFFFFF;
 }
 
-.review-card img {
-  border: 3px solid #FFFFFF;
-  border-radius: 50%;
-  margin: 0 29px 79px 118px;
-}
-
-.review-text p {
-  font-family: 'Mulish';
-  font-style: normal;
+.review-content {
   font-weight: 400;
   font-size: 19px;
   line-height: 30px;
   color: rgba(255, 255, 255, 0.9);
-  margin: 0;
-  padding: 10px 118px 89px 110px;
+
+  width: 420px;
+  padding: 51px 118px 89px 0;
 }
 
 .part-article {
@@ -604,17 +593,17 @@ body, html {
 
 footer {
   margin-top: 202px;
-  width: 1600px;
+  width: 100%;
   height: 432px; 
   display: flex;
   flex-direction: row;
-  justify-content: flex-start;
-  background: linear-gradient(183.41deg, #67C3F3 -8.57%, #5A98F2 82.96%);
+  justify-content: center;
+  background-color: #4089ED;
 }
 
 .footer-title {
   margin: 0;
-  padding: 118px 0 113px 190px;
+  padding: 118px 0 113px 0;
 }
 
 .footer-title p:nth-child(2) {
@@ -669,7 +658,7 @@ footer {
 .footer-nav-bar ul {
   margin: 0;
   padding-top: 109px;
-  padding-left: 160px;
+  padding-left: 140px;
 }
 
 .footer-nav-bar li {

@@ -6,6 +6,14 @@
     <link rel="stylesheet" href="style.css" />
     <link href="http://fonts.cdnfonts.com/css/mulish" rel="stylesheet" />
     <link href="http://fonts.cdnfonts.com/css/montserrat" rel="stylesheet" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.theme.default.min.css"
+    />
 
     <title>Test webpage</title>
   </head>
@@ -154,23 +162,27 @@
     </section>
 
     <section class="part-review container-review">
-      <div class="review-card">
-        <h2>What our customer are saying</h2>
-        <img src="source/image 1.svg" alt="" width="141px" height="141px;" />
-        <p>
-          Edward Newgate<br />
-          Founder Circle
-        </p>
-        <span class="review-text">
-          <p>
+      <div class="review-card-space owl-carousel owl-theme">
+        <div class="review-card">
+          <div class="review-header"><h2>What our customer are saying</h2></div>
+          <div class="review-image">
+            <img src="source/image 1.svg" alt="" />
+          </div>
+          <span class="image-text">
+            Edward Newgate<br />
+            Founder Circle
+          </span>
+          <span class="review-content">
             “Our dedicated patient engagement app and<br />
             web portal allow you to access information<br />
             instantaneously (no tedeous form, long calls,<br />
             or administrative hassle) and securely”
-          </p>
-        </span>
+          </span>
+        </div>
       </div>
     </section>
+
+    <!-- ! переделать секцию сверху с рабочей карусельж -->
 
     <section class="part-article container-article">
       <h2>Check out our latest article</h2>
@@ -262,6 +274,10 @@
       </div>
     </footer>
   </body>
+
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js"></script>
+  <script src="script.js"></script>
 </html>
 
 <!-- Сделать палочки через after 
