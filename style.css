@@ -7,6 +7,7 @@ body, html{
   align-items: center;
 }
 
+
 .container {
   margin: 56px 163px 0 190px;
 }
@@ -25,10 +26,6 @@ body, html{
 
 .container-article {
   margin: 223px 238px 0 242px; 
-}
-
-.container-footer {
-  padding: 0 235px 0 190px;
 }
 
 .button {
@@ -87,35 +84,6 @@ body, html{
 
 .logo-side {
   display: flex;
-}
-
-.t-logo {
-  width: 41px;
-  height: 41px;
-  border-radius: 50%;
-  background-color: #458FF6;
-}
-
-.t-logo span {
-  display: block;
-  font-family: 'Mulish';
-  font-style: normal;
-  font-weight: 700;
-  font-size: 26px;
-  line-height: 33px;
-  color: #FFFFFF;
-  padding: 5px 0 0 13px;;
-}
-
-.logo-title {
-  display: block;
-  padding: 6px 0 0 12px;;
-  font-family: 'Mulish';
-  font-style: normal;
-  font-weight: 700;
-  font-size: 24px;
-  line-height: 30px;
-  color: #233348;
 }
 
 .top-header {
@@ -675,16 +643,14 @@ footer {
   line-height: 60px;
 }
 
-@media screen and (max-width: 767) {
-  h1 {
-    font-size: 5px;
-  }
+@media screen and (max-width: 767px) {
+
 }
 
-@media (min-width:767px) and (max-width: 1023px) {
+@media screen and (min-width:767px) and (max-width: 1320px) {
   
 }
 
-@media (min-width: 1024) {
-  
+@media screen and (min-width: 1320px) {
+
 }
