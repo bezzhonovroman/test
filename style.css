@@ -1,4 +1,5 @@
-body, html{
+body,
+html {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
@@ -6,7 +7,6 @@ body, html{
   flex-direction: column;
   align-items: center;
 }
-
 
 .container {
   margin: 56px 163px 0 190px;
@@ -25,60 +25,60 @@ body, html{
 }
 
 .container-article {
-  margin: 223px 238px 0 242px; 
+  margin: 223px 238px 0 242px;
 }
 
 .button {
   display: inline-block;
   width: 200px;
   height: 56px;
-  background: #458FF6;
+  background: #458ff6;
   border-radius: 55px;
   text-decoration: none;
 }
 
 .button-color-lm {
-  border: 1px solid #458FF6;
-  background: #FFFFFF;
+  border: 1px solid #458ff6;
+  background: #ffffff;
 }
 
 .consult-button span {
-  font-family: 'Mulish';
+  font-family: "Mulish";
   font-style: normal;
   font-weight: 700;
   font-size: 18px;
   line-height: 56px;
-  color: #FFFFFF;
+  color: #ffffff;
   margin: 0 40px 0px 40px;
 }
 
 .white-button span {
-  font-family: 'Mulish';
+  font-family: "Mulish";
   font-style: normal;
   font-weight: 700;
   font-size: 18px;
   line-height: 56px;
-  color: #458FF6;
+  color: #458ff6;
   margin: 0 51px 0 51px;
 }
 
 .download-button > span {
-  font-family: 'Mulish';
+  font-family: "Mulish";
   font-style: normal;
   font-weight: 700;
   font-size: 18px;
   line-height: 56px;
-  color: #458FF6;
+  color: #458ff6;
   margin: 0 0 0 43px;
 }
 
 .view-all-button span {
-  font-family: 'Mulish';
+  font-family: "Mulish";
   font-style: normal;
   font-weight: 700;
   font-size: 18px;
   line-height: 56px;
-  color: #458FF6;
+  color: #458ff6;
   margin: 0 65px 0 66px;
 }
 
@@ -109,7 +109,7 @@ body, html{
 }
 
 .nav-bar a {
-  font-family: 'Mulish';
+  font-family: "Mulish";
   font-style: normal;
   font-weight: 400;
   font-size: 18px;
@@ -140,7 +140,7 @@ body, html{
 }
 
 .title-header h1 {
-  font-family: 'Montserrat';
+  font-family: "Montserrat";
   font-style: normal;
   font-weight: 700;
   font-size: 48px;
@@ -151,12 +151,12 @@ body, html{
 }
 
 .title-header p {
-  font-family: 'Mulish';
+  font-family: "Mulish";
   font-style: normal;
   font-weight: 300;
   font-size: 21px;
   line-height: 32px;
-  color: #7D7987;
+  color: #7d7987;
   padding: 0;
   padding-bottom: 48px;
   margin: 0;
@@ -176,7 +176,7 @@ body, html{
 
 .services-title h2 {
   text-align: center;
-  font-family: 'Mulish';
+  font-family: "Mulish";
   font-style: normal;
   font-weight: 700;
   font-size: 36px;
@@ -194,18 +194,17 @@ body, html{
   border-bottom: 2px solid #000000;
 }
 
-
 .services-title p {
   padding: 33px 85px 0 83px;
   margin: 0;
-  font-family: 'Mulish';
+  font-family: "Mulish";
   font-style: normal;
   font-weight: 300;
   font-size: 18px;
   line-height: 30px;
   text-align: center;
 
-  color: #7D7987;
+  color: #7d7987;
 }
 
 .services-cards {
@@ -222,8 +221,8 @@ body, html{
   display: flex;
   flex-direction: column;
   width: 350px;
-  height: 354px;;
-  background: #FFFFFF;
+  height: 354px;
+  background: #ffffff;
   box-shadow: 10px 40px 50px rgba(229, 233, 246, 0.4);
   border-radius: 20px;
 
@@ -250,7 +249,7 @@ body, html{
   padding-left: 38px;
   padding-top: 20px;
 
-  font-family: 'Mulish';
+  font-family: "Mulish";
   font-style: normal;
   font-weight: 700;
   font-size: 24px;
@@ -262,12 +261,12 @@ body, html{
   margin: 0;
   padding-left: 38px;
 
-  font-family: 'Mulish';
+  font-family: "Mulish";
   font-style: normal;
   font-weight: 300;
   font-size: 16px;
   line-height: 28px;
-  color: #7D7987;
+  color: #7d7987;
 }
 
 .margin-bottom-null {
@@ -282,7 +281,7 @@ body, html{
 .part-leading img {
   width: 650px;
   height: 477px;
-  padding-right: 142px; 
+  padding-right: 142px;
 }
 
 .leading-title {
@@ -291,7 +290,7 @@ body, html{
 }
 
 .leading-title h2 {
-  font-family: 'Mulish';
+  font-family: "Mulish";
   font-style: normal;
   font-weight: 700;
   font-size: 36px;
@@ -312,12 +311,12 @@ body, html{
 }
 
 .leading-title p {
-  font-family: 'Mulish';
+  font-family: "Mulish";
   font-style: normal;
   font-weight: 300;
   font-size: 18px;
   line-height: 30px;
-  color: #7D7987;
+  color: #7d7987;
   margin: 0;
   padding-bottom: 37px;
 }
@@ -339,7 +338,7 @@ body, html{
 }
 
 .download-title h2 {
-  font-family: 'Mulish';
+  font-family: "Mulish";
   font-style: normal;
   font-weight: 700;
   font-size: 36px;
@@ -360,22 +359,22 @@ body, html{
 }
 
 .download-title p {
-  font-family: 'Mulish';
+  font-family: "Mulish";
   font-style: normal;
   font-weight: 300;
   font-size: 18px;
   line-height: 30px;
-  color: #7D7987;
+  color: #7d7987;
   margin: 0;
   padding-bottom: 40px;
 }
 
-.part-review { 
+.part-review {
   display: flex;
   flex-direction: row;
-  font-family: 'Mulish';
+  font-family: "Mulish";
   font-style: normal;
-  color: #FFFFFF;
+  color: #ffffff;
 }
 
 .review-card {
@@ -385,14 +384,14 @@ body, html{
   flex-direction: row;
   flex-wrap: wrap;
   border-radius: 24px;
-  background: linear-gradient(208.18deg, #67C3F3 9.05%, #5A98F2 76.74%);
+  background: linear-gradient(208.18deg, #67c3f3 9.05%, #5a98f2 76.74%);
 }
 
 .review-image img {
   box-sizing: border-box;
-  border: 6px solid #FFFFFF;
+  border: 6px solid #ffffff;
   border-radius: 50%;
-  width: 141px !important; 
+  width: 141px !important;
   height: 141px !important;
   margin: 40px 29px 79px 118px;
 }
@@ -412,9 +411,9 @@ body, html{
   content: "";
   display: block;
   margin: 26px auto;
-  
+
   width: 56px;
-  border-bottom: 2px solid #FFFFFF;
+  border-bottom: 2px solid #ffffff;
 }
 
 .image-text {
@@ -431,7 +430,7 @@ body, html{
   font-size: 22px;
   line-height: 48px;
 
-  color: #FFFFFF;
+  color: #ffffff;
 }
 
 .review-content {
@@ -459,7 +458,7 @@ body, html{
 .part-article h2 {
   margin: 0;
   padding: 0 329px 100px 329px;
-  font-family: 'Mulish';
+  font-family: "Mulish";
   font-style: normal;
   font-weight: 700;
   font-size: 36px;
@@ -478,7 +477,7 @@ body, html{
   height: 512px;
   margin-right: 34px;
   margin-bottom: 69px;
-  background: #FFFFFF;
+  background: #ffffff;
   box-shadow: 10px 40px 50px rgba(229, 233, 246, 0.4);
   border-radius: 20px;
 }
@@ -488,11 +487,11 @@ body, html{
 }
 
 .article-card h3,
- .article-card p {
+.article-card p {
   margin: 0;
   padding-top: 21px;
   padding-left: 33px;
-  font-family: 'Mulish';
+  font-family: "Mulish";
   font-style: normal;
   font-weight: 700;
   font-size: 21px;
@@ -505,7 +504,7 @@ body, html{
   font-weight: 300;
   font-size: 16px;
   line-height: 28px;
-  color: #7D7987
+  color: #7d7987;
 }
 
 .article-card img {
@@ -517,12 +516,12 @@ body, html{
   margin: 0;
   padding-top: 25px;
   padding-left: 33px;
-  font-family: 'Mulish';
+  font-family: "Mulish";
   font-style: normal;
   font-weight: 600;
   font-size: 17px;
   line-height: 28px;
-  color: #4089ED;
+  color: #4089ed;
   text-decoration: none;
 }
 
@@ -533,7 +532,7 @@ body, html{
   width: 15px;
   margin: 3px;
   margin-left: 15px;
-  background-color: #458FF6;
+  background-color: #458ff6;
 }
 
 .arrow:after {
@@ -544,7 +543,7 @@ body, html{
   display: inline-block;
   box-sizing: border-box;
   width: 8px;
-  height: 8px;  
+  height: 8px;
   border-width: 2px 2px 0 0;
   border-style: solid;
   transform: rotate(45deg);
@@ -559,11 +558,11 @@ body, html{
 footer {
   margin-top: 202px;
   width: 100%;
-  height: 432px; 
+  height: 432px;
   display: flex;
   flex-direction: row;
   justify-content: center;
-  background-color: #4089ED;
+  background-color: #4089ed;
 }
 
 .footer-title {
@@ -578,46 +577,46 @@ footer {
 
 .footer-font {
   margin: 0;
-  font-family: 'Mulish';
+  font-family: "Mulish";
   font-style: normal;
   font-weight: 300;
   font-size: 18px;
   line-height: 28px;
-  color: #FFFFFF;
+  color: #ffffff;
 }
 
 .t-logo-footer {
   width: 41px;
   height: 41px;
   border-radius: 50%;
-  background-color: #FFFFFF;
+  background-color: #ffffff;
 }
 
 .t-logo-footer span {
   display: block;
-  font-family: 'Mulish';
+  font-family: "Mulish";
   font-style: normal;
   font-weight: 700;
   font-size: 26px;
   line-height: 33px;
-  color: #458FF6;
-  padding: 5px 0 0 13px;;
+  color: #458ff6;
+  padding: 5px 0 0 13px;
 }
 
 .logo-title-footer {
   display: block;
-  padding: 6px 0 0 12px;;
-  font-family: 'Mulish';
+  padding: 6px 0 0 12px;
+  font-family: "Mulish";
   font-style: normal;
   font-weight: 700;
   font-size: 24px;
   line-height: 30px;
-  color: #FFFFFF;
+  color: #ffffff;
 }
 
 .footer-nav-bar a {
   text-decoration: none;
-  color: #FFFFFF
+  color: #ffffff;
 }
 
 .footer-nav-bar ul {
@@ -627,7 +626,7 @@ footer {
 }
 
 .footer-nav-bar li {
-  font-family: 'Mulish';
+  font-family: "Mulish";
   font-style: normal;
   font-weight: 300;
   font-size: 18px;
@@ -635,8 +634,8 @@ footer {
   list-style: none;
 }
 
-.footer-nav-bar li:first-child { 
-  font-family: 'Mulish';
+.footer-nav-bar li:first-child {
+  font-family: "Mulish";
   font-style: normal;
   font-weight: 700;
   font-size: 20px;
@@ -644,13 +643,10 @@ footer {
 }
 
 @media screen and (max-width: 767px) {
-
 }
 
-@media screen and (min-width:767px) and (max-width: 1320px) {
-  
+@media screen and (min-width: 767px) and (max-width: 1320px) {
 }
 
 @media screen and (min-width: 1320px) {
-
 }
